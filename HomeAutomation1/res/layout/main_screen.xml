@@ -15,7 +15,7 @@
         android:layout_below="@+id/textView3"
         android:layout_marginTop="39dp"
         android:background="@drawable/beauty"
-        android:elevation="10dp"
+       
         android:padding="10dp"
         android:text="Access Database"
         android:textColor="@color/white" />
@@ -30,7 +30,7 @@
         android:layout_below="@+id/button1"
         android:layout_marginTop="22dp"
         android:background="@drawable/beauty"
-        android:elevation="10dp"
+       
         android:padding="5dp"
         android:text="Logout"
         android:textColor="@color/white" />

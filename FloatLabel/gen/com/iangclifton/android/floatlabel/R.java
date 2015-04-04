@@ -88,67 +88,67 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           attribute's value can be found in the {@link #FloatLabel} array.
           @attr name android:hint
         */
-        public static int FloatLabel_android_hint = 7;
+        public static final int FloatLabel_android_hint = 7;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#imeOptions}
           attribute's value can be found in the {@link #FloatLabel} array.
           @attr name android:imeOptions
         */
-        public static int FloatLabel_android_imeOptions = 9;
+        public static final int FloatLabel_android_imeOptions = 9;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#inputType}
           attribute's value can be found in the {@link #FloatLabel} array.
           @attr name android:inputType
         */
-        public static int FloatLabel_android_inputType = 8;
+        public static final int FloatLabel_android_inputType = 8;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout}
           attribute's value can be found in the {@link #FloatLabel} array.
           @attr name android:layout
         */
-        public static int FloatLabel_android_layout = 5;
+        public static final int FloatLabel_android_layout = 5;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#nextFocusDown}
           attribute's value can be found in the {@link #FloatLabel} array.
           @attr name android:nextFocusDown
         */
-        public static int FloatLabel_android_nextFocusDown = 4;
+        public static final int FloatLabel_android_nextFocusDown = 4;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#nextFocusForward}
           attribute's value can be found in the {@link #FloatLabel} array.
           @attr name android:nextFocusForward
         */
-        public static int FloatLabel_android_nextFocusForward = 10;
+        public static final int FloatLabel_android_nextFocusForward = 10;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#nextFocusLeft}
           attribute's value can be found in the {@link #FloatLabel} array.
           @attr name android:nextFocusLeft
         */
-        public static int FloatLabel_android_nextFocusLeft = 1;
+        public static final int FloatLabel_android_nextFocusLeft = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#nextFocusRight}
           attribute's value can be found in the {@link #FloatLabel} array.
           @attr name android:nextFocusRight
         */
-        public static int FloatLabel_android_nextFocusRight = 2;
+        public static final int FloatLabel_android_nextFocusRight = 2;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#nextFocusUp}
           attribute's value can be found in the {@link #FloatLabel} array.
           @attr name android:nextFocusUp
         */
-        public static int FloatLabel_android_nextFocusUp = 3;
+        public static final int FloatLabel_android_nextFocusUp = 3;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#text}
           attribute's value can be found in the {@link #FloatLabel} array.
           @attr name android:text
         */
-        public static int FloatLabel_android_text = 6;
+        public static final int FloatLabel_android_text = 6;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
           attribute's value can be found in the {@link #FloatLabel} array.
           @attr name android:textColorHint
         */
-        public static int FloatLabel_android_textColorHint = 0;
+        public static final int FloatLabel_android_textColorHint = 0;
         /**
           <p>This symbol is the offset where the {@link com.iangclifton.android.floatlabel.R.attr#editTextId}
           attribute's value can be found in the {@link #FloatLabel} array.
@@ -158,7 +158,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.iangclifton.android.floatlabel:editTextId
         */
-        public static int FloatLabel_editTextId = 13;
+        public static final int FloatLabel_editTextId = 13;
         /**
           <p>This symbol is the offset where the {@link com.iangclifton.android.floatlabel.R.attr#floatLabelColor}
           attribute's value can be found in the {@link #FloatLabel} array.
@@ -173,7 +173,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.iangclifton.android.floatlabel:floatLabelColor
         */
-        public static int FloatLabel_floatLabelColor = 11;
+        public static final int FloatLabel_floatLabelColor = 11;
         /**
           <p>This symbol is the offset where the {@link com.iangclifton.android.floatlabel.R.attr#labelId}
           attribute's value can be found in the {@link #FloatLabel} array.
@@ -183,6 +183,6 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.iangclifton.android.floatlabel:labelId
         */
-        public static int FloatLabel_labelId = 12;
+        public static final int FloatLabel_labelId = 12;
     };
 }

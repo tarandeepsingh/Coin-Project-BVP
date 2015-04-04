@@ -71,7 +71,7 @@
         android:paddingRight="20dp"
         android:paddingTop="45dp"
         android:text="LOGIN"
-        android:elevation="10dp"
+        
         android:textColor="@color/white"
         android:textSize="30dp" />
 
