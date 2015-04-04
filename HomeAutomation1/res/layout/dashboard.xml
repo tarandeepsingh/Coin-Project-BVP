@@ -116,7 +116,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="21dp"
         android:background="@drawable/roundedbutton"
-        android:elevation="10dp"
+        
         android:paddingBottom="20dp"
         android:paddingLeft="1dp"
         android:paddingRight="1dp"
