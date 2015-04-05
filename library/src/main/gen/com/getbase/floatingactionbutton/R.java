@@ -152,30 +152,30 @@ containing a value of this type.
         public static int fab_title=0x7f010005;
     }
     public static final class dimen {
-        public static int fab_actions_spacing=0x7f040008;
-        public static int fab_icon_size=0x7f040002;
-        public static int fab_labels_margin=0x7f040009;
-        public static int fab_plus_icon_size=0x7f040003;
-        public static int fab_plus_icon_stroke=0x7f040004;
-        public static int fab_shadow_offset=0x7f040005;
-        public static int fab_shadow_radius=0x7f040006;
-        public static int fab_size_mini=0x7f040001;
-        public static int fab_size_normal=0x7f040000;
-        public static int fab_stroke_width=0x7f040007;
+        public static int fab_actions_spacing=0x7f030008;
+        public static int fab_icon_size=0x7f030002;
+        public static int fab_labels_margin=0x7f030009;
+        public static int fab_plus_icon_size=0x7f030003;
+        public static int fab_plus_icon_stroke=0x7f030004;
+        public static int fab_shadow_offset=0x7f030005;
+        public static int fab_shadow_radius=0x7f030006;
+        public static int fab_size_mini=0x7f030001;
+        public static int fab_size_normal=0x7f030000;
+        public static int fab_stroke_width=0x7f030007;
     }
     public static final class drawable {
         public static int fab_bg_mini=0x7f020000;
         public static int fab_bg_normal=0x7f020001;
     }
     public static final class id {
-        public static int down=0x7f030005;
-        public static int fab_expand_menu_button=0x7f030006;
-        public static int fab_label=0x7f030007;
-        public static int left=0x7f030002;
-        public static int mini=0x7f030001;
-        public static int normal=0x7f030000;
-        public static int right=0x7f030003;
-        public static int up=0x7f030004;
+        public static int down=0x7f040006;
+        public static int fab_expand_menu_button=0x7f040000;
+        public static int fab_label=0x7f040001;
+        public static int left=0x7f040004;
+        public static int mini=0x7f040002;
+        public static int normal=0x7f040003;
+        public static int right=0x7f040005;
+        public static int up=0x7f040007;
     }
     public static final class styleable {
         /** Attributes that can be used with a AddFloatingActionButton.
@@ -205,7 +205,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.getbase.floatingactionbutton:fab_plusIconColor
         */
-        public static final int AddFloatingActionButton_fab_plusIconColor = 0;
+        public static int AddFloatingActionButton_fab_plusIconColor = 0;
         /** Attributes that can be used with a FloatingActionButton.
            <p>Includes the following attributes:</p>
            <table>
@@ -246,7 +246,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.getbase.floatingactionbutton:fab_colorDisabled
         */
-        public static final int FloatingActionButton_fab_colorDisabled = 1;
+        public static int FloatingActionButton_fab_colorDisabled = 1;
         /**
           <p>This symbol is the offset where the {@link com.getbase.floatingactionbutton.R.attr#fab_colorNormal}
           attribute's value can be found in the {@link #FloatingActionButton} array.
@@ -261,7 +261,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.getbase.floatingactionbutton:fab_colorNormal
         */
-        public static final int FloatingActionButton_fab_colorNormal = 2;
+        public static int FloatingActionButton_fab_colorNormal = 2;
         /**
           <p>This symbol is the offset where the {@link com.getbase.floatingactionbutton.R.attr#fab_colorPressed}
           attribute's value can be found in the {@link #FloatingActionButton} array.
@@ -276,7 +276,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.getbase.floatingactionbutton:fab_colorPressed
         */
-        public static final int FloatingActionButton_fab_colorPressed = 0;
+        public static int FloatingActionButton_fab_colorPressed = 0;
         /**
           <p>This symbol is the offset where the {@link com.getbase.floatingactionbutton.R.attr#fab_icon}
           attribute's value can be found in the {@link #FloatingActionButton} array.
@@ -286,7 +286,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.getbase.floatingactionbutton:fab_icon
         */
-        public static final int FloatingActionButton_fab_icon = 3;
+        public static int FloatingActionButton_fab_icon = 3;
         /**
           <p>This symbol is the offset where the {@link com.getbase.floatingactionbutton.R.attr#fab_size}
           attribute's value can be found in the {@link #FloatingActionButton} array.
@@ -303,7 +303,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.getbase.floatingactionbutton:fab_size
         */
-        public static final int FloatingActionButton_fab_size = 4;
+        public static int FloatingActionButton_fab_size = 4;
         /**
           <p>This symbol is the offset where the {@link com.getbase.floatingactionbutton.R.attr#fab_stroke_visible}
           attribute's value can be found in the {@link #FloatingActionButton} array.
@@ -317,7 +317,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.getbase.floatingactionbutton:fab_stroke_visible
         */
-        public static final int FloatingActionButton_fab_stroke_visible = 6;
+        public static int FloatingActionButton_fab_stroke_visible = 6;
         /**
           <p>This symbol is the offset where the {@link com.getbase.floatingactionbutton.R.attr#fab_title}
           attribute's value can be found in the {@link #FloatingActionButton} array.
@@ -331,7 +331,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.getbase.floatingactionbutton:fab_title
         */
-        public static final int FloatingActionButton_fab_title = 5;
+        public static int FloatingActionButton_fab_title = 5;
         /** Attributes that can be used with a FloatingActionsMenu.
            <p>Includes the following attributes:</p>
            <table>
@@ -374,7 +374,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.getbase.floatingactionbutton:fab_addButtonColorNormal
         */
-        public static final int FloatingActionsMenu_fab_addButtonColorNormal = 1;
+        public static int FloatingActionsMenu_fab_addButtonColorNormal = 1;
         /**
           <p>This symbol is the offset where the {@link com.getbase.floatingactionbutton.R.attr#fab_addButtonColorPressed}
           attribute's value can be found in the {@link #FloatingActionsMenu} array.
@@ -389,7 +389,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.getbase.floatingactionbutton:fab_addButtonColorPressed
         */
-        public static final int FloatingActionsMenu_fab_addButtonColorPressed = 0;
+        public static int FloatingActionsMenu_fab_addButtonColorPressed = 0;
         /**
           <p>This symbol is the offset where the {@link com.getbase.floatingactionbutton.R.attr#fab_addButtonPlusIconColor}
           attribute's value can be found in the {@link #FloatingActionsMenu} array.
@@ -404,7 +404,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.getbase.floatingactionbutton:fab_addButtonPlusIconColor
         */
-        public static final int FloatingActionsMenu_fab_addButtonPlusIconColor = 3;
+        public static int FloatingActionsMenu_fab_addButtonPlusIconColor = 3;
         /**
           <p>This symbol is the offset where the {@link com.getbase.floatingactionbutton.R.attr#fab_addButtonSize}
           attribute's value can be found in the {@link #FloatingActionsMenu} array.
@@ -421,7 +421,7 @@ containing a value of this type.
 </table>
           @attr name com.getbase.floatingactionbutton:fab_addButtonSize
         */
-        public static final int FloatingActionsMenu_fab_addButtonSize = 2;
+        public static int FloatingActionsMenu_fab_addButtonSize = 2;
         /**
           <p>This symbol is the offset where the {@link com.getbase.floatingactionbutton.R.attr#fab_addButtonStrokeVisible}
           attribute's value can be found in the {@link #FloatingActionsMenu} array.
@@ -435,7 +435,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.getbase.floatingactionbutton:fab_addButtonStrokeVisible
         */
-        public static final int FloatingActionsMenu_fab_addButtonStrokeVisible = 4;
+        public static int FloatingActionsMenu_fab_addButtonStrokeVisible = 4;
         /**
           <p>This symbol is the offset where the {@link com.getbase.floatingactionbutton.R.attr#fab_expandDirection}
           attribute's value can be found in the {@link #FloatingActionsMenu} array.
@@ -454,7 +454,7 @@ containing a value of this type.
 </table>
           @attr name com.getbase.floatingactionbutton:fab_expandDirection
         */
-        public static final int FloatingActionsMenu_fab_expandDirection = 7;
+        public static int FloatingActionsMenu_fab_expandDirection = 7;
         /**
           <p>This symbol is the offset where the {@link com.getbase.floatingactionbutton.R.attr#fab_labelStyle}
           attribute's value can be found in the {@link #FloatingActionsMenu} array.
@@ -464,7 +464,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.getbase.floatingactionbutton:fab_labelStyle
         */
-        public static final int FloatingActionsMenu_fab_labelStyle = 5;
+        public static int FloatingActionsMenu_fab_labelStyle = 5;
         /**
           <p>This symbol is the offset where the {@link com.getbase.floatingactionbutton.R.attr#fab_labelsPosition}
           attribute's value can be found in the {@link #FloatingActionsMenu} array.
@@ -481,6 +481,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
           @attr name com.getbase.floatingactionbutton:fab_labelsPosition
         */
-        public static final int FloatingActionsMenu_fab_labelsPosition = 6;
+        public static int FloatingActionsMenu_fab_labelsPosition = 6;
     };
 }

@@ -108,10 +108,20 @@ public class Welcome extends Activity {
 	        	
 	        	//make the request
 	        	response = httpclient.execute(new HttpGet(ACC_URL));
+	        	   StatusLine statusLine = response.getStatusLine();
+   	            if(statusLine.getStatusCode() == HttpStatus.SC_OK){
+   	                ByteArrayOutputStream out = new ByteArrayOutputStream();
+   	                response.getEntity().writeTo(out);
+   	                responseString = out.toString();
+   	                out.close();
+   	            } else{
+   	                //Closes the connection.
+   	                response.getEntity().getContent().close();
+   	                throw new IOException(statusLine.getReasonPhrase());
+   	            }
 	        
-	        	
 	        	//pass the data into json object
-	        	JSONObject get_string = new JSONObject(response.toString()); 
+	        	JSONObject get_string = new JSONObject(responseString); 
 
 	            
 	        	JSONArray jsonProduct_jsonarray = new JSONArray();
@@ -139,17 +149,7 @@ public class Welcome extends Activity {
 	            }
 	            
 	            
-	            StatusLine statusLine = response.getStatusLine();
-	            if(statusLine.getStatusCode() == HttpStatus.SC_OK){
-	                ByteArrayOutputStream out = new ByteArrayOutputStream();
-	                response.getEntity().writeTo(out);
-	                responseString = out.toString();
-	                out.close();
-	            } else{
-	                //Closes the connection.
-	                response.getEntity().getContent().close();
-	                throw new IOException(statusLine.getReasonPhrase());
-	            }
+	         
 	        } catch (ClientProtocolException e) {
 	            //TODO Handle problems..
 	        } catch (IOException e) {
